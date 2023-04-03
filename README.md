@@ -2,13 +2,14 @@
 
 Tests the new UUID generation, replacing an UUID and requesting and receiving
 images from strings
+Requires python 3
 
 
  
 
 ## How to install
 
-- python -m pip install -r requirements.txt
+- python3 -m pip install -r requirements.txt
 
 ## How to run
 python3 -m pytest --html=report.html --self-contained-html tess.py
