@@ -12,7 +12,7 @@ Requires python 3
 - python3 -m pip install -r requirements.txt
 
 ## How to run
-python3 -m pytest --html=report.html --self-contained-html tess.py
+python3 -m pytest --html=report.html --self-contained-html tests.py
 
 ## Warnings
 The tests generate a lot of SSL related warnings. Still haven't gotten around to fix those
